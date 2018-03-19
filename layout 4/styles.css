@@ -7,3 +7,39 @@ div{
     margin-left: auto;
     margin-right: auto;
 }
+
+.header{
+    background-color: blue;
+    width: 920px;
+    height: 200px;
+}
+
+.subhead{
+    background-color: greenyellow;
+    height: 200px;
+    width: 920px;
+}
+
+.yellowbox{
+    background-color: yellow;
+    height: 160px;
+    width: 430;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.yellowboxes{
+    background-color: yellow;
+    height: 360px;
+    width: 430;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: red;
+    height: 400px;
+    width: 920px;
+}
