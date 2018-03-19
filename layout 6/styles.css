@@ -1,0 +1,48 @@
+div{
+    outline: 1px dashed black;
+}
+
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: blue;
+    width: 460px;
+    height: 200px;
+    float: left;
+}
+
+.subhead{
+    background-color: greenyellow;
+    height: 200px;
+    width: 920px;
+    float: left;
+}
+
+.content{
+    background-color: red;
+    width: 920px;
+    height: 400px;
+    float: left
+}
+
+.topyellow{
+    background-color: yellow;
+    height: 170px;
+    width: 205px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bottomyellow{
+    background-color: yellow;
+    height: 170px;
+    width: 430px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
