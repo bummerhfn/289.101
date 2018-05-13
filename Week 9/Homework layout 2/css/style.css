@@ -1,5 +1,67 @@
-.container{
-    width: 1200px;
-    height: 800px;
-    background-color: aqua;
+.blue{
+    height: 100px;
+    background-color: deepskyblue;
+}
+
+.green{
+    height: 100px;
+    background-color: limegreen;
+}
+
+.orange{
+    height: 600px;
+    background-color: orange;
+}
+
+.red{
+    height: 200px;
+    background-color: orangered;
+}
+
+.grey{
+    height: 200px;
+    background-color: lightgrey;
+}
+
+.purple{
+    height: 200px;
+    background-color: hotpink;
+}
+
+/* sm devices */
+@media (min-width: 576px){
+    
+}
+
+/* md devices */
+@media (min-width:768px){
+    
+    .green{
+        height: 200px;
+    }
+    .red{
+        height: 600px;
+    }
+}
+
+/* lg devices */
+@media (min-width: 992px){
+    
+    .blue{
+        height: 50px;
+    }
+    .green{
+        height: 1200px;
+    }
+    .orange{
+        height: 1200px;
+    }
+    .red{
+        height: 1200px
+    }
+}
+
+/*xl devices */
+@media (min-width: 1200px){
+    
 }
