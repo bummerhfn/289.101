@@ -9,3 +9,70 @@ Next, add the following features:
 - create an item that makes the puck smaller
 
 */
+
+// declaring varible for puck //
+var puck_x = 210;
+var puck_y = 210;
+var speed = 40;
+var puck = document.getElementById('puck');
+var gap = document.getElementById('gap');
+
+puck.style.top = puck_y + 'px';
+puck.style.left = puck_x + 'px';
+
+function logCoordinates() {
+    console.log('x=' + puck_x + 'y=' + puck_y);
+}
+function checkCollision() {
+    if (puck_x >= 250 && puck_x <= 350 && puck_y >= 170 && puck_y <= 210){
+        gap.style.backgroundColor = 'red';
+    }
+    else{
+        gap.style.backgroundColor = 'white';
+    }
+}
+function teleport() {
+    if (puck_x >= 570){
+        puck_x = -30;
+    }
+}
+
+// move left //
+document.getElementById('left').addEventListener('click', function () {
+   puck_x -= speed;
+    puck.style.left = puck_x + 'px';
+    logCoordinates();
+    checkCollision();
+    teleport();
+});
+
+// move right //
+document.getElementById('right').addEventListener('click', function () {
+    puck_x += speed;
+    puck.style.left = puck_x + 'px';
+    logCoordinates();
+    checkCollision();
+    teleport();
+});
+
+// move up //
+document.getElementById('up').addEventListener('click', function () {
+    puck_y -= speed;
+    puck.style.top = puck_y + 'px';
+    logCoordinates();
+    checkCollision();
+    teleport();
+});
+
+// move down //
+document.getElementById('down').addEventListener('click', function () {
+    puck_y += speed;
+    puck.style.top = puck_y + 'px';
+    logCoordinates();
+    checkCollision();
+    teleport();
+});
+
+
+// teleport //
+
