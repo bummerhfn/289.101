@@ -1,0 +1,31 @@
+/* sm devices */
+@media (min-width: 576px){
+    body{
+        background-color: pink;
+    }
+    
+}
+
+/* md devices */
+@media (min-width:768px){
+    body{
+        background-color: orange;
+    }
+}
+
+/* lg devices */
+@media (min-width: 992px){
+    body{
+        background-color: chocolate;
+    }
+    .grey{
+        height: 150px;
+    }
+}
+
+/*xl devices */
+@media (min-width: 1200px){
+    body{
+        background-color: aqua;
+    }
+}
