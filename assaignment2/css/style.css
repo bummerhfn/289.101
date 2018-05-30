@@ -1,8 +1,6 @@
 .header{
     height: 150px;
     background-color: #F53A3A;
-    position: fixed;
-    top: 10 px;
 }
 
 .banner{
@@ -15,11 +13,41 @@
     background-color: white;
 }
 
+.slogan2{
+    height: 200px;
+    background-color: #F53A3A;
+}
+
 .footer{
     height: 100px;
     background-color: #3A3A3A;
 }
 
+.nukacola{
+    height: 200px;
+    background-color: white;
+}
+
+.product{
+    height: 800px;
+    background-color: lightgrey;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bottle{
+    height: 70%;
+    width: 100%;
+    background-color: blueviolet;
+    float: left;
+}
+
+.btext{
+    height: 30%;
+    width: 100%;
+    background-color: bisque;
+    float: left;
+}
 
 /* sm devices */
 @media (min-width: 576px){
@@ -33,6 +61,14 @@
     body{
         background-color: orange;
     }
+    .bottle{
+        height: 100%;
+        width: 50%;
+    }
+    .btext{
+        height: 100%;
+        width: 50%;
+    }
 }
 
 /* lg devices */
@@ -42,6 +78,12 @@
 }
     .header{
         height: 100px;
+    }
+    .bottle{
+        width: 35%;
+    }
+    .btext{
+        width: 65%;
     }
 
 /*xl devices */
